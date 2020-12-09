@@ -7,6 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Montserrat:wght@100&family=Sacramento&display=swap"
         rel="stylesheet">
@@ -15,28 +17,45 @@
 
 <body>
     <main>
-        <div class="parent">
-            <div class="separator">
-                <h1 class="titrePrincipal">MA CUISINE CALEDONIENNNE</h1>
+        <section class="section_banniere">
+            <div class="div_img_banniere"> <img class="img_banniere" src="images/background_cuisine.jpg" alt=""></div>
+            <div class="div_contenu_banniere">
+                <div class="container_navbar">
+                    <ul class="nav nav-tabs navbar">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Rôle du site</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Fonctionnement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Album photo</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="titre_site">
+                    <h1 class="titrePrincipal">MA CUISINE CALEDONIENNNE</h1>
+                </div>
             </div>
-        </div>
+        </section>
         <!-- Section du menu des recettes -->
         <section class="sectionMenu">
+            <div class="div_container_recette">
             <div class="divSectionMenu divLigneUne_sectionMenu">
                 <div class="div-divSectionMenu menu_bougna">
                     <h2>Ma recette du bougna marmite</h2>
                     <div><a href="https://cuisine.journaldesfemmes.fr/recette/264425-bougna-marmite"><img
-                                class="imageBougna" src="images/bougna.jpg" alt="bougna"></a></div>
+                                class="imageBougna photo" src="images/bougna.jpg" alt="bougna"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_bami">
                     <h2>Ma recette du Bami calédonien</h2>
                     <div><a href="https://cuisinedupacifique.skyrock.com/3075665103-Le-Bami-Caledonien.html"><img
-                                src="images/bami.jpg" alt="bami"></a></div>
+                                src="images/bami.jpg" class="photo" alt="bami"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_roussette">
-                    <h2>Ma recette de roussette au caramel du caillou</h2>
+                    <h2>Ma roussette sauce au vin</h2>
                     <div><a href="https://www.recettes.nc/recette/roussette-au-caramel-du-caillou/"><img
-                                class="imageRoussette" src="images/roussette.jpg" alt="roussette"></a></div>
+                                class="imageRoussette photo" src="images/roussette.jpg" alt="roussette"></a></div>
                 </div>
             </div>
 
@@ -45,55 +64,69 @@
                     <h2>Crevette à l'ail et au lait de coco</h2>
                     <div><a
                             href="https://www.pattysaveurs.com/fr/d-ailleurs/701-crevettes-a-l-ail-et-lait-de-coco.html"><img
-                                class="imageCrevette" src="images/crevette.jpg" alt="crevette"></a></div>
+                                class="imageCrevette photo" src="images/crevette.jpg" alt="crevette"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_escargot">
                     <h2>Ma recette d'escargot de kunie</h2>
                     <div><a
                             href="http://crszycouk.unblog.fr/2011/01/26/recette-traditionnelle-des-escargot-bulime-de-lile-des-pins/"><img
-                                class="imageEscargot" src="images/escargot.jpeg" alt="escargot"></a></div>
+                                class="imageEscargot photo" src="images/escargot.jpeg" alt="escargot"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_nem">
                     <h2>Ma recette de nem kanak</h2>
                     <div><a
                             href="https://la1ere.francetvinfo.fr/nouvellecaledonie/precieuses-feuilles-chou-736250.html"><img
-                                class="imageNem" src="images/nem.jpg" alt="nem"></a></div>
+                                class="imageNem photo" src="images/nem.jpg" alt="nem"></a></div>
                 </div>
             </div>
 
             <div class="divSectionMenu divLigneTrois_sectionMenu">
                 <div class="div-divSectionMenu menu_boulette">
                     <h2>Ma recette de boulette javanaise</h2>
-                    <div><a href=""><img class="imageBoulette" src="images/boulette.jpg" alt="boulette"></a></div>
+                    <div><a href=""><img class="imageBoulette photo" src="images/boulette.jpg" alt="boulette"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_grisette">
                     <h2>Ma recette de grisette du caillou</h2>
-                    <div><a href=""><img class="imageGrisette" src="images/grisette.jpg" alt="grisette"></a></div>
+                    <div><a href=""><img class="imageGrisette photo" src="images/grisette.jpg" alt="grisette"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_porc">
                     <h2>Ma recette de porc au sucre</h2>
-                    <div><a href=""><img class="imagePorc" src="images/porc.jpg" alt="porc"></a></div>
+                    <div><a href=""><img class="imagePorc photo" src="images/porc.jpg" alt="porc"></a></div>
                 </div>
             </div>
 
             <div class="divSectionMenu divLigneQuatre_sectionMenu">
                 <div class="div-divSectionMenu menu_squash">
                     <h2>Ma recette de gratin au squash</h2>
-                    <div><a href=""><img class="imageSquash" src="images/squash.jpg" alt="squash"></a></div>
+                    <div><a href=""><img class="imageSquash photo" src="images/squash.jpg" alt="squash"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_benitier">
                     <h2>Ma recette de soupe au bénitier</h2>
-                    <div><a href=""><img class="imageBenitier" src="images/benitier.jpg" alt="benitier"></a></div>
+                    <div><a href=""><img class="imageBenitier photo" src="images/benitier.jpg" alt="benitier"></a></div>
                 </div>
                 <div class="div-divSectionMenu menu_bred">
                     <h2>Bred en salade et au lait de coco </h2>
-                    <div><a href=""><img class="imageRoussette" src="images/brede.jpg" alt="brède"></a></div>
+                    <div><a href=""><img class="imageRoussette photo" src="images/brede.jpg" alt="brède"></a></div>
                 </div>
             </div>
+        </div>
         </section>
         <div></div>
     </main>
     <script src="./script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
