@@ -16,7 +16,7 @@ h1{
     position: relative;
 }
 h2{
-    color: rgb(161, 139, 12);
+    color: rgb(133, 216, 25);
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 1em;
 }
@@ -36,7 +36,7 @@ a{
     display: flex;
 }
 .titrePrincipal{
-    color: rgb(161, 139, 12);
+    color:  rgb(133, 216, 25);
     font-family: 'Gloria Hallelujah', cursive;
     font-weight: bold;
 }
